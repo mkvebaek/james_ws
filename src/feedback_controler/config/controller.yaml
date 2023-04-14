@@ -1,0 +1,8 @@
+node_name: 'controller'
+control_modes: ['joystick', 'automatic']
+
+model:
+  M: [9.51, 9,51, 0.116]
+  D: [1.96, 1.96, 0.196]
+
+flags:

@@ -1,0 +1,7 @@
+<launch>
+    <node name="simulator" pkg="simulator" type="CSEI.py"/>
+    <node name="tf_publisher" pkg="tf_test_pkg" type="node.py"/>
+    <node name="gain_server" pkg = "gain_server" type="server.py" />
+    <node name="controller" pkg="controller" type="ctrl_joy_node.py" />
+    <node name="observer" pkg = "observer" type="obs_node.py" />
+</launch>

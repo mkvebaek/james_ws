@@ -1,0 +1,5 @@
+<launch>
+    <node name="gain_server" pkg="gain_server" type="server.py" />
+    <node name="feedback_controler" pkg = "feedback_controler" type="controller.py" />
+    <node name="thrust_allocation" pkg="thrust_allocation" type="thrust_allocation.py" />
+</launch>

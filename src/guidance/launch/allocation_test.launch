@@ -1,0 +1,7 @@
+<launch>
+    <node name="simulator" pkg= "simulator" type="CSS.py" />
+    <node name="observer" pkg = "observer" type="obs_node.py" />
+    <node name="guidance" pkg = "guidance" type="guidance_node.py" />
+    <node name="thrust_allocation" pkg="thrust_allocation" type="thrust_node.py" />
+</launch>
+

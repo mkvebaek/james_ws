@@ -1,0 +1,8 @@
+<launch>
+    <node name="gain_server" pkg = "gain_server" type="server.py" />
+    <node name="simulator" pkg = "simulator" type="CSS.py" />
+    <node name="observer" pkg = "observer" type="dp_observer.py" />
+    <node name="guidance" pkg = "guidance" type="guidance_CBF.py" />
+    <node name="controller" pkg="feedback_controler" type="cascade_backstepping.py" />
+    <node name="thrust_allocation" pkg="thrust_allocation" type="thrust_allocation.py" />
+</launch>
